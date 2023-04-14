@@ -1,0 +1,87 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+}
+nav
+{
+    background-color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap-reverse;
+    
+}
+.inputs, .link
+{
+    margin-left: 40px;
+}
+
+.inputs input[type="text"]
+{
+    padding: 15px;
+    background-color: #eee;
+    border: none;
+    border-radius: 10px;
+    width: 180px;
+}
+.inputs input[type="submit"]
+{
+    padding: 15px 20px;
+    background-color: rgb(13, 236, 13);
+    border: none;
+    border-radius: 10px;
+}
+.link button
+{
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px;
+    color: #eee;
+    border: none;
+}
+
+.musique
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(131, 130, 130);
+    align-items: center;
+    margin: 15px;
+    flex-wrap: nowrap;
+}
+
+.element
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infos
+{
+    margin: 10px;
+    order: 2;
+}
+.controls
+{
+    order: 1;
+}
+.download
+{
+    order: 3;
+}
+
+.controls button, .download button
+{
+    background-color: rgb(131, 130, 130);
+    border: none;
+    font-size: 150%;
+}
+.controls button:hover, .download button:hover
+{
+    font-size: 250%;
+}

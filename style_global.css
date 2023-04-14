@@ -1,0 +1,61 @@
+body
+{
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+h1
+{
+    color: #f11919;
+    text-align: center;
+}
+
+form .inputs
+{
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input[type="text"], input[type="file"],select, input[type="password"]
+{
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #EEE;
+}
+
+form .inputs 
+{
+    padding: 15px;
+}
+
+form .bouton
+{
+    text-align: center;
+}
+
+form .bouton input[type="submit"]
+{
+    padding: 15px 25px;
+    font-size: 15px;
+    background-color: #f11919;
+    border: none;
+    border-radius: 10px;
+    color: #EEE;
+}
+.paragraphe
+{
+    text-align: center;
+    color: blue;
+}
